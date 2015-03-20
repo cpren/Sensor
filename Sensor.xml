@@ -19,21 +19,6 @@
     <statement name="DO">
       <block type="movement_setmotors" id="5" inline="true">
         <value name="BOTHMOVLEFT">
-          <block type="math_arithmetic" id="14" inline="true">
-            <field name="OP">MULTIPLY</field>
-            <value name="A">
-              <block type="sensor_object" id="6">
-                <field name="OBJECT">LEFTFRONT</field>
-              </block>
-            </value>
-            <value name="B">
-              <block type="math_number" id="21">
-                <field name="NUM">-1</field>
-              </block>
-            </value>
-          </block>
-        </value>
-        <value name="BOTHMOVRIGHT">
           <block type="math_arithmetic" id="22" inline="true">
             <field name="OP">MULTIPLY</field>
             <value name="A">
@@ -43,6 +28,21 @@
             </value>
             <value name="B">
               <block type="math_number" id="24">
+                <field name="NUM">-1</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <value name="BOTHMOVRIGHT">
+          <block type="math_arithmetic" id="14" inline="true">
+            <field name="OP">MULTIPLY</field>
+            <value name="A">
+              <block type="sensor_object" id="6">
+                <field name="OBJECT">LEFTFRONT</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="21">
                 <field name="NUM">-1</field>
               </block>
             </value>
