@@ -1,30 +1,30 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="7" inline="false" x="-22" y="-6">
+  <block type="controls_whileUntil" id="1" inline="false" x="-22" y="-6">
     <field name="MODE">WHILE</field>
     <value name="NUMBER">
-      <block type="logic_compare" id="108" inline="true">
+      <block type="logic_compare" id="2" inline="true">
         <field name="OP">EQ</field>
         <value name="A">
-          <block type="math_number" id="216">
+          <block type="math_number" id="3">
             <field name="NUM">1</field>
           </block>
         </value>
         <value name="B">
-          <block type="math_number" id="223">
+          <block type="math_number" id="4">
             <field name="NUM">1</field>
           </block>
         </value>
       </block>
     </value>
     <statement name="DO">
-      <block type="movement_setmotors" id="24" inline="true">
+      <block type="movement_setmotors" id="5" inline="true">
         <value name="BOTHMOVLEFT">
-          <block type="sensor_object" id="31">
+          <block type="sensor_object" id="6">
             <field name="OBJECT">LEFTFRONT</field>
           </block>
         </value>
         <value name="BOTHMOVRIGHT">
-          <block type="sensor_object" id="38">
+          <block type="sensor_object" id="7">
             <field name="OBJECT">RIGHTFRONT</field>
           </block>
         </value>
